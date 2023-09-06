@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'HigurashiTitle';
+    src: url("./font/outai.otf") format("opentype");
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+h2.web-titleJP {
+    margin: 0;
+    text-align: center;
+    font-style: italic;
+    font-size: 35px;
+    line-height: 0;
+}
+
+h1.title-part {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    line-height: -15;
+    height: 0;
+}
+
+h1.web-title {
+    font-family: HigurashiTitle;
+    font-size: 100px;
+}
+
+.ni {
+    color: red;
+}
+
+.text {
+    font-family: HigurashiTitle;
+    font-style: italic;
+    color: grey;
+    font-size: 25px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    top: 75px;
+}
+
+p.header {
+    font-family: HigurashiTitle;
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+a:link {
+    color: #ffc0cb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a74e5d;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #a10f27;
+    text-decoration: none;
+}
+
+a:active {
+    color: #ffc0cb;
+    text-decoration: none;
+}
