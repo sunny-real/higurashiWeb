@@ -90,3 +90,12 @@ a:active {
     color: #ffc0cb;
     text-decoration: none;
 }
+
+.titleLink {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.titleLink:hover {
+    color: pink !important;
+}
