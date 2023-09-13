@@ -59,6 +59,37 @@ hr {
     margin: 0;
 }
 
+/* Link */
+
 a.th {
     text-decoration: none;
+}
+
+a:link {
+    color: #ed5670;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5d5455;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #a10f27;
+    text-decoration: none;
+}
+
+a:active {
+    color: #8b676d;
+    text-decoration: none;
+}
+
+.titleLink {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.titleLink:hover {
+    color: rgb(192, 142, 151) !important;
 }
